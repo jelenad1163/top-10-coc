@@ -1,0 +1,191 @@
+{
+    "cocktails": [
+    {
+      "id": 1,
+      "name": "Margarita",
+      "image": "../margarita.png",
+      "ingredients":[
+        "2 lime wedges and coarse sea salt, for glass rimming",
+        "4 oz. tequila",
+        "2 oz. triple sec",
+        "1 1/2 oz. freshly squeezed lime juice",
+        "ice"
+      ],
+      "steps":[
+        "Run lime wedge around the outer rims of 2 rocks glasses and dip rims in salt.",
+        "In a cocktail shaker, combine tequila, Cointreau, and lime juice. Fill with ice and shake until thoroughly chilled",
+        "Fill glasses with fresh ice and strain margarita into both glasses. Garnish with lime wheels and serve."
+      ]
+    
+    },
+    {
+      "id": 2,
+      "name": "Mojito",
+      "image": "../mojito.png",
+      "ingredients":[
+        "1 teaspoon sugar",
+        "10 leaves fresh mint",
+        "1 1/2 ounces white rum",
+        "3/4 ounce fresh lime juice",
+        "Club soda"
+      ],
+      "steps":[
+        "Place sugar and mint leaves in a serving glass, and gently muddle just until the leaves release their oils.",
+        "Fill glass with ice. Add rum and lime juice. Stir to combine.",
+        "Top with club soda."
+      ]
+    
+    },
+    {
+      "id": 3,
+      "name": "Piña Colada",
+      "image": "../pinacolada.png",
+      "ingredients":[
+        "5 ounces (140g) frozen pineapple",
+        "1 3/4 ounces (50ml) unsweetened coconut cream",
+        "1 ounce (30ml) simple syrup",
+        "1 ounce (30ml) simple syrup",
+        "2 1/2 ounces (75ml) white or gold rum, kept in freezer until freezer-cold",
+        "4 ounces (115g) ice cubes"
+      ],
+      "steps":[
+        "In an airtight plastic container, combine pineapple, coconut cream, simple syrup, and 3/4 ounce lime juice, and transfer to freezer until frozen.",
+        "In a blender, combine frozen pineapple mixture with ice-cold rum and ice and blend until thick and slushy.",
+        "Pour into a large glass, garnish with pineapple and/or a cherry, and serve, with or without an paper umbrella and straw."
+      ]
+    
+    }, 
+    {
+      "id": 4,
+      "name": "Cosmopolitan",
+      "image": "../cosmo.png",
+      "ingredients":[
+        "Ice",
+        "1 1/2 ounces citrus-flavored vodka",
+        "1/2 ounce triple sec",
+        "1/2 ounce cranberry juice",
+        "1/4 ounce lime juice",
+        "Orange twist, for garnish"
+      ],
+      "steps":[
+        "Fill a cocktail shaker with ice.",
+        "Add vodka, triple sec, cranberry, and lime, and shake well.",
+        "Strain into a chilled cocktail glass. Garnish with an orange twist."
+      ]
+    
+    }, 
+    {
+      "id": 5,
+      "name": "Moscow Mule",
+      "image": "../moscow.png",
+      "ingredients":[
+        "1/2 a lime",
+        "2 ounces vodka",
+        "4 to 6 ounces chilled ginger beer"
+      ],
+      "steps":[
+        "Squeeze lime into a Collins glass or copper mug.",
+        "Drop in the spent lime shell.",
+        "Fill glass with ice and add vodka; top with chilled ginger beer to taste."
+      ]
+    
+    }, 
+    {
+      "id": 6,
+      "name": "Bloody Mary",
+      "image": "../mary.png",
+      "ingredients":[
+        "2 ounces vodka",
+        "1/4 ounce fresh lemon juice",
+        "Dashes of salt and black pepper",
+        "1/4 teaspoon horseradish",
+        "2 dashes Tabasco sauce",
+        "3 dashes Worcestershire sauce",
+        "4 ounces tomato juice"
+      ],
+      "steps":[
+        "Combine ingredients in a mixing glass and fill with ice.",
+        "Gently roll from one glass to another until chilled.",
+        "Strain into a Collins glass filled with fresh ice.",
+        "Garnish with a slice of lemon or lime"
+      ]
+    
+    }, 
+    {
+      "id": 7,
+      "name": "Paloma",
+      "image": "../paloma.png",
+      "ingredients":[
+        "2 ounces reposado tequila",
+        "1/2 a lime, plus a wedge for garnish",
+        "Coarse salt",
+        "Grapefruit soda"
+      ],
+      "steps":[
+        "Fill a 10-ounce Collins glass with ice.",
+        "Juice the lime into the glass.",
+        "Add reposado tequila and a pinch of coarse salt.",
+        "Top with grapefruit soda and stir gently to combine"
+      ]
+    
+    }, 
+    {
+      "id": 8,
+      "name": "Mimosa",
+      "image": "../mimosa.png",
+      "ingredients":[
+        "Sparkling wine",
+        "Orange Juice",
+        "Optional extras like vodka, Grand Marnier, Chambord"
+      ],
+      "steps":[
+        "Fill eight champagne flutes half full with chilled sparkling wine.",
+        "Top with orange juice.",
+        "If you are using it, add 1 tablespoon of Grand Marnier to each glass."
+        ]
+    
+    }, 
+    {
+      "id": 9,
+      "name": "Manhattan",
+      "image": "../manhattan.png",
+      "ingredients":[
+        "4 ounces rye whiskey",
+        "2 ounces sweet vermouth",
+        "4 dashes Angostura bitters",
+        "Garnish: 2 Maraschino cherries"
+      ],
+      "steps":[
+        "Pour the whiskey, sweet vermouth, and bitters into a mixing glass filled with ice. Stir until outside of shaker is very cold to touch.",
+        "Place a maraschino cherry in each of two chilled cocktail glasses.",
+        "Dividing evenly, strain the contents of the shaker over cherries and serve immediately.",
+        "Garnish with lemon wedges. Serve."
+      ]
+    
+    }, 
+    {
+      "id": 10,
+      "name": "Long Island Iced Tea",
+      "image": "../longisland.png",
+      "ingredients":[
+        "2 cups ice cubes",
+        "1 ounce vodka",
+        "1 ounce gin",
+        "1 ounce white rum",
+        "1 ounce white tequila",
+        "1/2 ounce Triple Sec",
+        "2 tablespoons freshly squeezed lemon juice",
+        "1/2 cup cola, or to taste",
+        "2 lemon wedges"
+      ],
+      "steps":[
+        "Fill a cocktail shaker with ice.",
+        "Pour the vodka, gin, rum, tequila, Triple Sec, and lemon juice into the shaker.",
+        "Cover and shake vigorously to combine and chill.",
+        "Pour the mixture, ice and all, into 2 glasses or beer mugs and top off with the cola."
+    
+      ]
+    
+    }
+    ]
+    }

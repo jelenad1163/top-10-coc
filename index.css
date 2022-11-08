@@ -1,0 +1,33 @@
+h1{
+    color: rgb(121, 105, 105);
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    color:darkslategrey
+}
+
+button { 
+    margin-bottom: 5px; 
+    background-color:burlywood;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cocktails{
+    background-color:burlywood
+}
+
+#cocktail-list{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(121, 105, 105) ;
+}
+
+#cocktail-info{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(121, 105, 105) ;
+}
+
