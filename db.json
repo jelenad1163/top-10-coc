@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Margarita",
-      "image": "../margarita.png",
+      "image": "./margarita.png",
       "ingredients":[
         "2 lime wedges and coarse sea salt, for glass rimming",
         "4 oz. tequila",
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "name": "Mojito",
-      "image": "../mojito.png",
+      "image": "./mojito.png",
       "ingredients":[
         "1 teaspoon sugar",
         "10 leaves fresh mint",
@@ -39,7 +39,7 @@
     {
       "id": 3,
       "name": "Piña Colada",
-      "image": "../pinacolada.png",
+      "image": "./pinacolada.png",
       "ingredients":[
         "5 ounces (140g) frozen pineapple",
         "1 3/4 ounces (50ml) unsweetened coconut cream",
@@ -58,7 +58,7 @@
     {
       "id": 4,
       "name": "Cosmopolitan",
-      "image": "../cosmo.png",
+      "image": "./cosmo.png",
       "ingredients":[
         "Ice",
         "1 1/2 ounces citrus-flavored vodka",
@@ -77,7 +77,7 @@
     {
       "id": 5,
       "name": "Moscow Mule",
-      "image": "../moscow.png",
+      "image": "./moscow.png",
       "ingredients":[
         "1/2 a lime",
         "2 ounces vodka",
@@ -93,7 +93,7 @@
     {
       "id": 6,
       "name": "Bloody Mary",
-      "image": "../mary.png",
+      "image": "./mary.png",
       "ingredients":[
         "2 ounces vodka",
         "1/4 ounce fresh lemon juice",
@@ -114,7 +114,7 @@
     {
       "id": 7,
       "name": "Paloma",
-      "image": "../paloma.png",
+      "image": "./paloma.png",
       "ingredients":[
         "2 ounces reposado tequila",
         "1/2 a lime, plus a wedge for garnish",
@@ -132,7 +132,7 @@
     {
       "id": 8,
       "name": "Mimosa",
-      "image": "../mimosa.png",
+      "image": "./mimosa.png",
       "ingredients":[
         "Sparkling wine",
         "Orange Juice",
@@ -148,7 +148,7 @@
     {
       "id": 9,
       "name": "Manhattan",
-      "image": "../manhattan.png",
+      "image": "./manhattan.png",
       "ingredients":[
         "4 ounces rye whiskey",
         "2 ounces sweet vermouth",
@@ -166,7 +166,7 @@
     {
       "id": 10,
       "name": "Long Island Iced Tea",
-      "image": "../longisland.png",
+      "image": "./longisland.png",
       "ingredients":[
         "2 cups ice cubes",
         "1 ounce vodka",
