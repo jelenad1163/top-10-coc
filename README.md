@@ -2,7 +2,8 @@
 
 ## Hi👋, I'm Jelena, and this is a simple app I created that includes the top 10 cocktails and their recipes.
 ## Introduction
-For this simple app, I picked a list of 10 cocktails that were the most popular and included their ingredients and steps to make them. 
+For this simple app, I picked a list of 10 cocktails that were the most popular and included their 
+ingredients and steps to make them. 
 ## Technologies
 ### The project is created with the following: 
 JavaScript
