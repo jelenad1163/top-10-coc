@@ -3,6 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const cocktailInfo = document.querySelector("#cocktail-info");
     const mainCocktailsUl = document.querySelector("#cocktail-list");
     const cocktailBtn = document.querySelector("#cocktails").addEventListener('click', renderCocktails)
+
+    const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark');
+})
     
     function fetchCocktails() {
         fetch("http://localhost:3000/cocktails")
@@ -14,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
             
     function renderCocktails(){
+        mainCocktailsUl.innerHTML = ''
         cocktails.forEach(cocktail =>{
             cocktailInfo.innerHTML = ''
             mainCocktailsUl.innerHTML += `
@@ -52,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
     }
+
               
     function init() {
         fetchCocktails()
