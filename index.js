@@ -25,11 +25,22 @@ checkbox.addEventListener('change', ()=>{
             cocktailInfo.innerHTML = ''
             mainCocktailsUl.innerHTML += `
             <li>${cocktail.name}
-            <button id="${cocktail.id}">Click for recipe</button></li>
+            <button id="${cocktail.id}">Click for recipe</button>
+            <button id="like-button">Like <3</button>
+            <span> 0 </span>
+            </li>
+            
             `
         }) 
     renderOneCocktail()
-    }   
+    increaseLikes()
+    } 
+    
+    function  increaseLikes(){
+        const likeButtons = document.querySelectorAll("#like-button")
+        console.log(likeButtons)
+    }
+    
             
     function renderOneCocktail(){
     const cocktailButtons = document.querySelectorAll("#cocktail-list button")
