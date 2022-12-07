@@ -16,30 +16,45 @@ checkbox.addEventListener('change', ()=>{
         .then(data => {
             cocktails = data
             
+            
         })
     }
+   
+    
             
     function renderCocktails(){
+        let likes = 0
         mainCocktailsUl.innerHTML = ''
         cocktails.forEach(cocktail =>{
+            
             cocktailInfo.innerHTML = ''
             mainCocktailsUl.innerHTML += `
-            <li> id= ${cocktail.name}
+            <li id="cocktails-list"> ${cocktail.name}
             <button id="${cocktail.id}">Click for recipe</button>
-            <button id="like-button">Like <3</button>
-            <span> 0 </span>
+            <button id="like-button" class="like"><span class="like-glyph">&#x2661;</span></button>
+            <span id="likes"> ${likes} </span>
             </li>
-            
             `
-        }) 
-    renderOneCocktail()
-    increaseLikes()
-    } 
-    
-    function  increaseLikes(){
-        const likeButtons = document.querySelectorAll("#like-button")
-        
+            let likeButton = document.getElementById("like-button").addEventListener('click', ()=>{
+                likes += 1
+            })
+            
+            
+         
+
+            })
     }
+
+  
+            
+         
+        
+            
+        
+    
+  
+        
+    
     
             
     function renderOneCocktail(){
@@ -70,40 +85,9 @@ checkbox.addEventListener('change', ()=>{
         })
     })
     }
-
-              
-    function init() {
-        fetchCocktails()
-    }
     
-    init();
+    fetchCocktails()
+    renderOneCocktail()
+    
+    
 })
-    
-
-
-
-
-
-
-        
-                    
-    
-          
-          
-          
-          
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-
-
-            
-            
