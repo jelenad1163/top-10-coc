@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cocktailInfo = document.querySelector("#cocktail-info");
     const mainCocktailsUl = document.querySelector("#cocktail-list");
     const cocktailBtn = document.querySelector("#cocktails").addEventListener('click', renderCocktails)
+    let likes = 0
 
     const checkbox = document.getElementById('checkbox');
 
@@ -23,27 +24,53 @@ checkbox.addEventListener('change', ()=>{
     
             
     function renderCocktails(){
-        let likes = 0
+        
         mainCocktailsUl.innerHTML = ''
         cocktails.forEach(cocktail =>{
             
             cocktailInfo.innerHTML = ''
             mainCocktailsUl.innerHTML += `
             <li id="cocktails-list"> ${cocktail.name}
-            <button id="${cocktail.id}">Click for recipe</button>
+            <button id="${cocktail.id}" class="get-recipe">Click for recipe</button>
             <button id="like-button" class="like"><span class="like-glyph">&#x2661;</span></button>
             <span id="likes"> ${likes} </span>
             </li>
             `
-            let likeButton = document.getElementById("like-button").addEventListener('click', ()=>{
-                likes += 1
-            })
+        
+
+            
+                
+
+                
+            
+           
             
             
+         renderOneCocktail()
+         increaseLikes()
+         
          
 
             })
     }
+
+    function increaseLikes(){
+        let likeButton = document.querySelectorAll("#like-button.like")
+        let likeResult = document.querySelectorAll("#likes")
+        
+        likeButton.forEach((i)=>{
+            i.addEventListener('click',()=>{
+                likeResult.innerHTML = `${likes}`
+                i = likeResult++
+                
+                
+                
+                
+            })
+        })
+        
+    }
+   
 
   
             
@@ -59,6 +86,7 @@ checkbox.addEventListener('change', ()=>{
             
     function renderOneCocktail(){
     const cocktailButtons = document.querySelectorAll("#cocktail-list button")
+    
     cocktailButtons.forEach((button) => {
         button.addEventListener('mouseover', () =>{
             button.style.color = 'white'
@@ -87,7 +115,8 @@ checkbox.addEventListener('change', ()=>{
     }
     
     fetchCocktails()
-    renderOneCocktail()
+    
+    
     
     
 })
